@@ -20,8 +20,8 @@
 
   &__title {
     margin: 0px;
-    font-weight: 700;
     font-size: 35px;
+    font-weight: 700;
     line-height: 43px;
     text-align: center;
   }
@@ -37,12 +37,12 @@
     padding: 19px 110px 19px 110px;
     width: 380px;
     height: 105px;
+    background-color: #5bb189;
     font-style: normal;
-    font-weight: 700;
     font-size: 55px;
+    font-weight: 700;
     line-height: 67px;
     text-align: center;
-    background-color: #5bb189;
   }
   &__description {
     margin: 0px;
@@ -59,7 +59,7 @@
   }
 
   &__options-list &__rectangle:nth-child(even) {
-    background: #1f3d6300;
+    background-color: #1f3d6300;
     mix-blend-mode: normal;
   }
 
@@ -82,7 +82,7 @@
     margin: 39px 113px 40px 112px;
     width: 154px;
     height: 40px;
-    background: #5bb189;
+    background-color: #5bb189;
     border-radius: 20px;
     font-size: 14px;
     line-height: 17px;
@@ -92,12 +92,12 @@
   }
   &__badge {
     position: absolute;
-    width: 122px;
-    height: 123px;
     left: 69.35%;
     right: 0%;
     top: 0%;
     bottom: 84.39%;
+    width: 122px;
+    height: 123px;
   }
 
   &__badge-img {
@@ -108,11 +108,11 @@
 
   &__popular-title {
     position: absolute;
-    width: 25px;
-    height: 147px;
-    transform: rotate(45deg);
     top: -18px;
     right: 142px;
+    transform: rotate(45deg);
+    width: 25px;
+    height: 147px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
