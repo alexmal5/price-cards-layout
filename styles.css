@@ -82,6 +82,7 @@
   line-height: 17px;
   text-align: center;
   border: none;
+  color: #ffffff;
 }
 .price_card__badge {
   position: absolute;
