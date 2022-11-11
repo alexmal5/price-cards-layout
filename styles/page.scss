@@ -1,0 +1,150 @@
+.tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 115px 132px 115px 132px;
+}
+
+.price_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  height: 770px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+
+  &__titles {
+    padding: 33px 140px 33px 140px;
+  }
+
+  &__title {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__subtitle {
+    margin: 0px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__price {
+    margin: 0px;
+    padding: 19px 110px 19px 110px;
+    width: 380px;
+    height: 105px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5bb189;
+  }
+  &__description {
+    margin: 0px;
+    padding: 40px 26px 40px 26px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__options-list &__rectangle:nth-child(odd) {
+    background-color: #2a343880;
+    mix-blend-mode: normal;
+  }
+
+  &__options-list &__rectangle:nth-child(even) {
+    background: #1f3d6300;
+    mix-blend-mode: normal;
+  }
+
+  &__rectangle {
+    display: flex;
+  }
+
+  &__options-list-image {
+    margin: 18px 22px 19px 22px;
+    width: 15px;
+    height: 13px;
+  }
+  &__options-list-description {
+    margin: 16px 156px 16px 0px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  &__order-btn {
+    margin: 39px 113px 40px 112px;
+    width: 154px;
+    height: 40px;
+    background: #5bb189;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+  }
+  &__badge {
+    position: absolute;
+    width: 122px;
+    height: 123px;
+    left: 69.35%;
+    right: 0%;
+    top: 0%;
+    bottom: 84.39%;
+  }
+
+  &__badge-img {
+    position: absolute;
+    top: -17px;
+    right: 45px;
+  }
+
+  &__popular-title {
+    position: absolute;
+    width: 25px;
+    height: 147px;
+    transform: rotate(45deg);
+    top: -18px;
+    right: 142px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.blue {
+  position: relative;
+  margin-left: 18px;
+}
+
+.price-blue {
+  background: #3a6ba5;
+}
+
+.order-btn-blue {
+  background: #3a6ba5;
+}
+
+.orange {
+  margin-left: 18px;
+}
+
+.price-orange {
+  background: #ec632a;
+}
+
+.order-btn-orange {
+  background: #ec632a;
+}
