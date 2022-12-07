@@ -148,6 +148,7 @@ body {
 .order-btn-orange {
   background: #ec632a;
 }
+
 .price-card__rectangle {
   display: flex;
 }
@@ -162,13 +163,14 @@ body {
 }
 
 .checkmark_green {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  // display: flex;
+  // justify-content: center;
+  align-items: center;
   background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
 }
 
 .options-list-description {
+  align-items: center;
   margin: 16px 156px 16px 0px;
   font-weight: 300;
   font-size: 15px;
