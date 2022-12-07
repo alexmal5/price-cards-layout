@@ -5,7 +5,7 @@
   margin: 115px 132px 115px 132px;
 }
 
-.price_card {
+.price-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,23 +14,23 @@
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
-.price_card__titles {
+.price-card__titles {
   padding: 33px 140px 33px 140px;
 }
-.price_card__title {
+.price-card__title {
   margin: 0px;
   font-size: 35px;
   font-weight: 700;
   line-height: 43px;
   text-align: center;
 }
-.price_card__subtitle {
+.price-card__subtitle {
   margin: 0px;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
-.price_card__price {
+.price-card__price {
   margin: 0px;
   padding: 19px 110px 19px 110px;
   width: 380px;
@@ -42,7 +42,7 @@
   line-height: 67px;
   text-align: center;
 }
-.price_card__description {
+.price-card__description {
   margin: 0px;
   padding: 40px 26px 40px 26px;
   font-weight: 300;
@@ -50,29 +50,29 @@
   line-height: 18px;
   text-align: center;
 }
-.price_card__options-list .price_card__rectangle:nth-child(odd) {
+.price-card__options-list .price-card__rectangle:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
   mix-blend-mode: normal;
 }
-.price_card__options-list .price_card__rectangle:nth-child(even) {
+.price-card__options-list .price-card__rectangle:nth-child(even) {
   background-color: rgba(31, 61, 99, 0);
   mix-blend-mode: normal;
 }
-.price_card__rectangle {
+.price-card__rectangle {
   display: flex;
 }
-.price_card__options-list-image {
+.price-card__options-list-image {
   margin: 18px 22px 19px 22px;
   width: 15px;
   height: 13px;
 }
-.price_card__options-list-description {
+.price-card__options-list-description {
   margin: 16px 156px 16px 0px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
-.price_card__order-btn {
+.price-card__order-btn {
   margin: 39px 113px 40px 112px;
   width: 154px;
   height: 40px;
@@ -84,7 +84,7 @@
   border: none;
   color: #ffffff;
 }
-.price_card__badge {
+.price-card__badge {
   position: absolute;
   left: 69.35%;
   right: 0%;
@@ -93,12 +93,12 @@
   width: 122px;
   height: 123px;
 }
-.price_card__badge-img {
+.price-card__badge-img {
   position: absolute;
   top: -17px;
   right: 45px;
 }
-.price_card__popular-title {
+.price-card__popular-title {
   position: absolute;
   top: -18px;
   right: 142px;
