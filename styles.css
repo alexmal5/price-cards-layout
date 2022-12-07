@@ -140,6 +140,27 @@ body {
   background: #ec632a;
 }
 
+.price-card__rectangle {
+  display: flex;
+}
+
+.checkmark {
+  margin: 18px 22px 19px 22px;
+  width: 15px;
+  height: 13px;
+}
+
+.checkmark_green {
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+}
+
+.options-list-description {
+  margin: 16px 156px 16px 0px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+
 * {
   box-sizing: border-box;
 }
