@@ -58,23 +58,28 @@ body {
     text-align: center;
   }
 
-  &__options-list {
-    margin: 0px;
-    padding: 0px;
-  }
+  // &__options-list {
+  //   margin: 0px;
+  //   padding: 0px;
+  // }
 
-  &__options-list &__rectangle:nth-child(odd) {
-    background-color: #2a343880;
-    mix-blend-mode: normal;
-  }
+  // &__options-list &__rectangle:nth-child(odd) {
+  //   background-color: #2a343880;
+  //   mix-blend-mode: normal;
+  // }
 
-  &__options-list &__rectangle:nth-child(even) {
-    background-color: #1f3d6300;
-    mix-blend-mode: normal;
-  }
+  // &__options-list &__rectangle:nth-child(even) {
+  //   background-color: #1f3d6300;
+  //   mix-blend-mode: normal;
+  // }
 
   &__rectangle {
-    display: flex;
+    // display: flex;
+    align-items: center;
+    margin: 16px 156px 16px 0px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
   }
 
   &__options-list-image {
@@ -158,14 +163,14 @@ body {
   display: flex;
 }
 
-.checkmark {
-  margin: 18px 22px 19px 22px;
-  // display: flex;
-  // justify-content: center;
-  // text-align: center;
-  width: 15px;
-  height: 13px;
-}
+// .checkmark {
+//   margin: 18px 22px 19px 22px;
+//   // display: flex;
+//   // justify-content: center;
+//   // text-align: center;
+//   width: 15px;
+//   height: 13px;
+// }
 
 .checkmark_green {
   // display: flex;
@@ -174,10 +179,32 @@ body {
   background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
 }
 
-.options-list-description {
-  align-items: center;
-  margin: 16px 156px 16px 0px;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
+// .options-list-description {
+//   align-items: center;
+//   margin: 16px 156px 16px 0px;
+//   font-weight: 300;
+//   font-size: 15px;
+//   line-height: 18px;
+// }
+
+.price-card__options-list {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding: 0;
+}
+.price-card__options-list li {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 22px;
+}
+.price-card__options-list li:nth-child(odd) {
+  background-color: #2a3438;
+}
+.checkmark {
+  height: 13px;
+  width: 15px;
+  display: inline-block;
+  margin-right: 22px;
 }
