@@ -55,6 +55,10 @@ body {
   line-height: 18px;
   text-align: center;
 }
+.price-card__options-list {
+  margin: 0px;
+  padding: 0px;
+}
 .price-card__options-list .price-card__rectangle:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5019607843);
   mix-blend-mode: normal;

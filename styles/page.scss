@@ -58,6 +58,11 @@ body {
     text-align: center;
   }
 
+  &__options-list {
+    margin: 0px;
+    padding: 0px;
+  }
+
   &__options-list &__rectangle:nth-child(odd) {
     background-color: #2a343880;
     mix-blend-mode: normal;
