@@ -19,9 +19,11 @@ body {
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
+
 .price-card__titles {
   padding: 33px 140px 33px 140px;
 }
+
 .price-card__title {
   margin: 0px;
   font-size: 35px;
@@ -29,12 +31,14 @@ body {
   line-height: 43px;
   text-align: center;
 }
+
 .price-card__subtitle {
   margin: 0px;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
+
 .price-card__price {
   margin: 0px;
   padding: 19px 110px 19px 110px;
@@ -47,32 +51,35 @@ body {
   line-height: 67px;
   text-align: center;
 }
+
 .price-card__description {
   margin: 0px;
-  padding: 40px 26px 40px 26px;
+  padding: 40px 26px 0px 26px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
 }
-.price-card__rectangle {
+
+/* .price-card__rectangle {
   align-items: center;
   margin: 16px 156px 16px 0px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-}
-.price-card__options-list-image {
+} */
+/* .price-card__options-list-image {
   margin: 18px 22px 19px 22px;
   width: 15px;
   height: 13px;
-}
+} */
 .price-card__options-list-description {
   margin: 16px 156px 16px 0px;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
 }
+
 .price-card__order-btn {
   margin: 39px 113px 40px 112px;
   width: 154px;
@@ -85,6 +92,7 @@ body {
   border: none;
   color: #ffffff;
 }
+
 .price-card__badge {
   position: absolute;
   left: 69.35%;
@@ -94,11 +102,13 @@ body {
   width: 122px;
   height: 123px;
 }
+
 .price-card__badge-img {
   position: absolute;
   top: -17px;
   right: 45px;
 }
+
 .price-card__popular-title {
   position: absolute;
   top: -18px;
@@ -136,12 +146,11 @@ body {
   background: #ec632a;
 }
 
-.price-card__rectangle {
+/* .price-card__rectangle {
   display: flex;
-}
-
+} */
 .checkmark_green {
-  align-items: center;
+  /* align-items: center; */
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
 }
 
